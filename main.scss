@@ -1,0 +1,195 @@
+body {
+  // font:{   
+  //   size : 16px;
+  //   weight : 400;
+  //   family : 'Nanum Gothic', sans-serif;
+  // };
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: black
+}
+
+
+/* 밑줄 생략 */
+a{
+  text-decoration: none;
+}
+
+.topBtn{
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color:rgb(81, 165, 250);
+  //background-color:dodgerblue;
+  cursor: pointer;
+  text-align: center;
+}
+
+.topBtn:hover{
+  background-color: skyblue;
+  color: #fff;
+}
+
+/*/================================================================//
+//      Header
+//================================================================/*/
+
+header {
+  position: relative;
+ 
+  .inner {
+    //background-color: rgb(212, 255, 251);
+    background-color: #aff9fc;
+    position: relative;
+    height: 40px;
+    border-bottom: 3px solid rgb(22, 120, 128);  
+    padding: 10px 0 10px 10px;
+
+    .title
+    {
+      //display: inline-flex;
+      position: absolute;
+
+      a {      
+       font-size: 30px;
+       font-weight: 700;
+       text-align: center;
+       font-style: italic;
+       color : rgb(50, 116, 240);
+      }
+
+    }
+    
+    .rightBtns {
+      position: absolute;
+      right:20px;     
+
+      .login{
+        margin-right: 5px;
+      }
+      .authority{
+        //display: inline-flex;
+      }
+    }
+  }
+}
+
+/*/================================================================//
+//      Navigation
+//================================================================/*/
+
+.navigation
+{
+  position: relative;
+  display: flex;
+  background-color: rgb(18, 134, 125);
+  border-bottom: 2px solid hwb(128 2% 66%);
+  height : 60px;
+
+  .box{
+    padding-left: 20px;
+    margin : auto 0;   
+    width: 100%;   
+
+    h1{
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+
+    }
+  }
+}
+
+/*/================================================================//
+//      Login
+//================================================================/*/
+
+.login_inner
+{
+  //width: 400px;
+
+  // 중앙정렬
+  position: relative;
+  //top: 150px;
+  //left: 50%;
+  //transform: translate(-50%, 0%);
+  //test
+  //ackground-color: burlywood;
+
+  .inputFrom
+  {
+    position: relative;    
+    width: 400px;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 30px 22px;
+    border-radius: 20px;
+    background-color: #F6F5F0;
+    //background-color: #e4751b;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .3);
+
+    form{
+
+      label{
+        text-align: center;
+        display: inline-block;
+        width: 110px;
+        margin-bottom: 12px;
+        padding: 15px;      
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+
+      input{
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 12px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        outline: none;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+
+      .btn 
+      {         
+          width: 100%;
+          font-size: 18px;
+          color: white;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 20px;
+          outline: none;
+          margin-top:5px;
+          background-color: skyblue;
+          cursor: pointer;
+      }
+    }// End Form 
+  }
+
+
+}// End 로그인 화면 
+
+
+.description
+{
+  position: relative;
+  //background-color: orange;
+  top: 170px;
+  .bottomTxt
+  {
+    text-align: center;
+    font-size: 14px;
+    //position: absolute;
+    //background-color: orange;
+  }
+}
+

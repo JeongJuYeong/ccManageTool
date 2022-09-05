@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOLFZON CCManage TOOL</title>
+
+  <!-- 아이콘-->
+  <link rel="icon" href="./images/icons/favicon.png">
+
+  <!-- 화면 기본 css 리셋 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+  <!-- Google API : 폰트 연결-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@100&display=swap"
+    rel="stylesheet">
+
+  <!-- Google API : 머터리얼 아이콘 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+  <!-- 주영이 코드 -->
+  <link rel="stylesheet" href="./main.scss">
+
+  <script defer src="./main.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="inner">
+      <div class="title">
+        <a href="/"><b>GOLFZON CC 통합관리툴</b></a>
+      </div>
+      <div class="rightBtns">
+        <button class="topBtn login" id="loginBtn">로그인</button>
+        <button class="topBtn authority" id="authorityBtn">권한신청</button>
+      </div>
+    </div>
+   
+  </header>
+
+  <section class="navigation">
+    <div class="box"><h1>로그인</h1></div>
+  </section>
+
+  <section class="login_inner">
+    <div class="inputFrom">
+      <form>
+        <div>
+          <label for="aaa">아이디</label>
+          <input type="text" placeholder="아이디를 입력하세요." />
+        </div>
+
+        <div>
+          <label for="aaa">패스워드</label>
+          <input type="password" placeholder="비밀번호를 입력하세요." autocomplete="off"/>
+        </div>   
+        
+        <div>
+          <label for="aaa">E-mail 주소</label>
+          <input type="email" placeholder="E-mail 주소를 입력하세요." />
+        </div>   
+        
+        <button type="submit" class="btn bnt--primary block">LOG-IN</button>      
+      </form>      
+    </div>        
+  </section>
+
+  <section class="description">
+    <div class="bottomTxt">
+      <p>
+        GOLFZON CC 통합관리툴은 골프존 그룹웨어 계정 기반으로 운영됩니다.<br/>
+        권한 추가가 필요한 경우, 권한 추가 신청 후 해외 사업 또는 담당 개발팀에 문의하여 주십시오.    
+      </p>
+      <a href="javascript(0)" class = "linkBenifit">GOLFZON CC 통합관리툴 권한 신청하기</a>
+    </div>
+
+  </section> 
+ 
+
+  <!-- <footer>
+    <div>aaa</div>
+  </footer> -->
+<!-- 
+  <h1>
+    HELLO CCManage Tool
+    <span class="material-icons">login</span>
+  </h1> -->
+
+</body>
+
+</html>
